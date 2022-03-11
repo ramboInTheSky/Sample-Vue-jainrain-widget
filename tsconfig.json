@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "es5",
+        "outDir": "tmp",
+        "lib": [
+            "es5",
+            "es2015.promise",
+            "dom",
+            "scripthost"
+        ],
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
